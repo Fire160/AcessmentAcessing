@@ -1,7 +1,6 @@
 public class SavingsAccount extends BankAccount
 	{
-	public double mylnterestRate;
-	private double myInterestRate;
+	public double myInterestRate;
 	public SavingsAccount()
 		{
 		/* implementation not shown */ 
@@ -11,8 +10,12 @@ public class SavingsAccount extends BankAccount
 		myBalance = balance;
 		myInterestRate = rate;
 		}
-	public void addlnterest() 
+	public void addInterest() 
 		{
 		myInterestRate++;
+		}
+	public double getInterest()
+		{
+		return myInterestRate;
 		}
 	}

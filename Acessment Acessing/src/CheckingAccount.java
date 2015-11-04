@@ -10,12 +10,12 @@ public class CheckingAccount extends BankAccount
  		* than MIN_BALANCE. Allows for negative balance. */
  	public void withdraw(double amount)
  		{ 
-// 		super.withdraw(amount);
- 		myBalance -= amount;
- 		System.out.println("YO DAWG");
- 		if(myBalance < MIN_BALANCE)
- 			{
- 			myBalance -= FEE;
- 			}
+ 		super.withdraw(amount);
+// 		myBalance -= amount;
+// 		if(myBalance < MIN_BALANCE)
+// 			{
+// 			System.out.println("YO DAWG");
+// 			myBalance -= FEE;
+// 			}
  		}
 	}
